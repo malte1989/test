@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorRowBackground"
+    android:padding="@dimen/row_padding">
+
+    <!-- Author Image -->
+    <ImageView
+        android:id="@+id/author_image"
+        android:layout_width="@dimen/author_image_size"
+        android:layout_height="@dimen/author_image_size"
+        android:layout_marginEnd="@dimen/row_elements_margin"
+        android:src="@drawable/unknown" />
+
+    <!-- Quote Text-->
+    <TextView
+        android:id="@+id/quote_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/author_image"
+        android:layout_toEndOf="@id/author_image"
+        android:text="@string/sample_quote"
+        android:textAlignment="center"
+        android:textSize="@dimen/quote_text_font_size" />
+
+    <!-- Quote Author -->
+    <TextView
+        android:id="@+id/quote_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quote_text"
+        android:layout_marginTop="@dimen/row_elements_margin"
+        android:layout_toEndOf="@id/author_image"
+        android:text="@string/sample_author"
+        android:textAlignment="center"
+        android:textColor="@color/colorAuthor"
+        android:textSize="@dimen/default_font_size" />
+
+</RelativeLayout>

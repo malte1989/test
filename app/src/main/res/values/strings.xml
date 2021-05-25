@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SchulungNeu</string>
+    <string name="text_button_activity_main">Hole Daten</string>
+
+    <string name="logVerboseMessage">Verbose     - Meldung.</string>
+    <string name="sample_author">Beispiel Author</string>
+    <string name="sample_quote">Beispiel Zitat</string>
+</resources>
